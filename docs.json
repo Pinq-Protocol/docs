@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Pinq Protocol Docs",
+  "theme": "maple",
+  "name": "Pinq Protocol Documentation",
   "colors": {
     "primary": "#FF6F00",
     "light": "#F9F9F9",
@@ -20,37 +20,16 @@
               "quickstart",
               "development"
             ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
           }
         ]
-      },
+      }
     ],
     "global": {
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "href": "https://docs.pinqprotocol.xyz/",
           "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
@@ -60,12 +39,11 @@
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "DAPP",
-        "href": "https://app.pinqprotocol.xyz",
-      }
-    ],
+    "primary": {
+      "type": "button",
+      "label": "App Layer",
+      "href": "https://dashboard.pinqprotocol.xyz"
+    }
   },
   "footer": {
     "socials": {
